@@ -42,11 +42,8 @@ body{
 
 /* Parte do conteudo */
 .bottom-container{
-
-    /* background-color: lightblue; */
     margin: auto;
     width: 90%;
-    /* height: 50vh; */
     margin-top: 2rem;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -89,7 +86,6 @@ footer{
     height: 2rem;
     width: 100%;
     font-family: poppins;
-    /* background-color: lightcoral; */
 }
 footer a{
     text-decoration: none;
@@ -100,8 +96,8 @@ footer a:hover{
     color: black;
     font-size: 0.81rem;
 }
-footer a:link:active, a:visited:active {
-    color: ;
+footer a:link:active, footer a:visited:active {
+    color: #A9A9A9;
   }
 
 @media (min-width: 700px){
@@ -127,9 +123,7 @@ footer a:link:active, a:visited:active {
     }
 
     .bottom-container{
-
-        /* background-color: lightblue; */
-        margin: auto;
+        margin-top: 1rem;
         width: 67%;
         display: grid;
         grid-template-rows: 1fr 1fr;
